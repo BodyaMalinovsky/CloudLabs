@@ -1,0 +1,7 @@
+*.dll
+*.pdb
+*.dacpac
+*.suo
+
+*/*/*/obj/
+*/*/*/bin/
