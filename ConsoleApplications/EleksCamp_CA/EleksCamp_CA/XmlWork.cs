@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace EleksCamp_CA
 {
-    class XmlWork
+    public class XmlWork
     {
         public void CreateXML(int id, string autor, string department, string name, int pages, string fileName)
         {

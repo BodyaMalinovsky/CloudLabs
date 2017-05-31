@@ -33,12 +33,16 @@ namespace EleksCamp_CA.Domain
 
             Book otherBook = obj as Book;
 
-            if (otherBook != null)
+            if (otherBook == null)
             {
-                throw new NotImplementedException("CompareTo method not implemented yet");
+                throw new ArgumentException("Object is not a Book");
             }
 
-            throw new ArgumentException("Object is not a Book");
+            return this._pages > otherBook.Pages
+                ? 1
+                : this._pages == otherBook.Pages
+                    ? 0
+                    : -1;
         }
     }
 }

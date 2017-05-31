@@ -16,7 +16,7 @@ namespace EleksCamp_CA.Abstraction
             this._booksIds = booksIds;
         }
 
-        public void AddBook(int bookId)
+        public void AddBookById(int bookId)
         {
             this._booksIds.Add(bookId);
         }
