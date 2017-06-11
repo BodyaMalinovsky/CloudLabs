@@ -1,0 +1,23 @@
+﻿@using System.Web.UI.HtmlControls
+@model WebApplication1.Models.HomeModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @ViewBag.Greeting ELEKS
+    </div>
+    <div>
+        @Html.ActionLink("InputForm Link", "InputForm")
+    </div>
+</body>
+</html>

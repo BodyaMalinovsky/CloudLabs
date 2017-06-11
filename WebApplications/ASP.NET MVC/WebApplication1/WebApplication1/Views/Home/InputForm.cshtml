@@ -1,0 +1,25 @@
+﻿@using System.Net.Mime
+@model WebApplication1.Models.HomeModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>InputForm</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <p>Your Name: @Html.TextBoxFor(x => x.Name)</p>
+            <p>Your Email: @Html.TextBoxFor(x => x.Email)</p>
+            <p>Your Phone: @Html.TextBoxFor(x => x.Phone)</p>
+            <input type="submit" value="Submit Form"/>
+        }
+    </div>
+</body>
+</html>

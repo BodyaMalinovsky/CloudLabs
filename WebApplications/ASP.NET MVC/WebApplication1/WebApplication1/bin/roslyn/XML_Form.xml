@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AllUsers>
+  <User>
+    <name>Bodyan</name>
+    <email>bodya@gmail.com</email>
+    <phone>0934532223</phone>
+  </User>
+  <User>
+    <name>Jimmy</name>
+    <email>Morriarty</email>
+    <phone>0936912791</phone>
+  </User>
+  <User>
+    <name>Bodyan</name>
+    <email>bodya@gmail.com</email>
+    <phone>0934532223</phone>
+  </User>
+  <User>
+    <name>Chack</name>
+    <email>chacknorris@gmail.com</email>
+    <phone>038947282</phone>
+  </User>
+</AllUsers>

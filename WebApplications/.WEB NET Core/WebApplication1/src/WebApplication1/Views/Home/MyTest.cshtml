@@ -1,0 +1,21 @@
+﻿@using WebApplication1.Controllers
+@using WebApplication1.Models
+@model WebApplication1.Models.TestModel
+
+@{
+    ViewData["Title"] = "MyTest";
+}
+
+<h3>HELLO ELEKS!</h3>
+<div>
+    <p>First name:<b>@Model.FirstName</b></p>
+    <p>Last name: <b>@Model.LastName</b></p>
+</div>
+
+@using (Html.BeginForm("MyTest", "Home", new object(), FormMethod.Post))
+{
+    <p>Name: @Html.TextBoxFor(model => model.FirstName, string.Empty)</p>
+    <p>Email: @Html.TextBoxFor(model => model.Email, string.Empty)</p>
+    <p>Add to list Names @Html.TextBoxFor(model => model.Names, string.Empty)</p>
+    <input type="submit" value="Read text" />
+}
