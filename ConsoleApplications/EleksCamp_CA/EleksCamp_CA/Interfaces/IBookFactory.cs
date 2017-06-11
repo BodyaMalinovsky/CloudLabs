@@ -2,7 +2,7 @@
 
 namespace EleksCamp_CA.Interfaces
 {
-    public interface IBookFactorys
+    public interface IBookFactory
     {
         Book GetBook();
     }

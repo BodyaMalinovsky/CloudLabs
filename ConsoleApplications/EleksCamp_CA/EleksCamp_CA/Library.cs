@@ -25,7 +25,7 @@ namespace EleksCamp_CA
             this.AllBooks.Add(book);
 
             Department existingDepartment = this.Departments.FirstOrDefault(dep => dep.Name == department);
-
+           
             if (existingDepartment == null)
             {
                 existingDepartment = new Department(department);
@@ -53,33 +53,6 @@ namespace EleksCamp_CA
         public int GetBooksCount()
         {
             return AllBooks.Count;
-        }
-
-        public void PrintAllBooks()
-        {
-            Console.WriteLine("\nAll library books:");
-            foreach (Book book in this.AllBooks)
-            {
-                Console.WriteLine(book.ToString());
-            }
-        }
-
-        public void PrintAllAuthors()
-        {
-            Console.WriteLine("\nAll library authors:");
-            foreach (Autor autor in this.Autors)
-            {
-                Console.WriteLine(autor.Name);
-            }
-        }
-
-        public void PrintAllDepartments()
-        {
-            Console.WriteLine("\nAll library departments:");
-            foreach (Department department in this.Departments)
-            {
-                Console.WriteLine(department.Name);
-            }
         }
     }   
 }

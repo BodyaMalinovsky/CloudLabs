@@ -15,16 +15,20 @@ namespace EleksCamp_CA.Domain
         private readonly int _pages;
         public int Pages => this._pages;
 
-        public Book(string name, int pages)
+        private readonly string _description;
+        public string Description => this._description;
+         
+        public Book(string name, int pages, string description = null)
         {
+            this._id = _counter++;
             this._name = name;
             this._pages = pages;
-            this._id = _counter++;
+            this._description = description;
         }
 
         public override string ToString()
         {
-            return $"Book name: '{_name}', Pages={_pages}. Internal book id={_id} (remove)";
+            return $"Book name: '{_name}', Pages={_pages}. Description: {_description}.";
         }
 
         public int CompareTo(object obj)

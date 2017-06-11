@@ -1,4 +1,6 @@
 ﻿using System;
+using EleksCamp_CA.Factories;
+using EleksCamp_CA.Interfaces;
 
 namespace EleksCamp_CA
 {
@@ -22,28 +24,13 @@ namespace EleksCamp_CA
             //var xmlwork = new XmlWork();
             //xmlwork.SortByPages("Library.xml");
 
-            //var richter = new Autor("Richter");
-            //richter.AddBook(52);
-            //richter.AddBook(53);
-            //richter.AddBook(54);
-            //richter.AddBook(55);
-            //Console.WriteLine(richter.GetBooksCount());
+            IBookFactory bookhouse = new Bookhouse();
+            IBookFactory bookstore = new Bookstore();
+            
+            Console.WriteLine(bookhouse.GetBook().ToString());
+            Console.WriteLine(bookstore.GetBook().ToString());
 
-            //IList<string> bookIds = richter.BooksIds.Select(bookId => bookId.ToString()).ToList();
-            //string booksResult = bookIds.Aggregate((previousValue, newValue) => previousValue + ", " + newValue);
-
-            //Console.WriteLine(booksResult);
-
-            //Console.WriteLine("Hello Extension method".ToString2());
             Console.ReadKey();
-        }
-    }
-
-    public static class StringExtensions
-    {
-        public static string ToString2(this string source)
-        {
-            return "Bodya sais: " + source;
         }
     }
 }
