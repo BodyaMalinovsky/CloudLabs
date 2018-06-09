@@ -1,9 +1,0 @@
-C:\Users\MOYO\Downloads\Test_vacantion\Test_vacantion\bin\Debug\Test_vacantion.exe.config
-C:\Users\MOYO\Downloads\Test_vacantion\Test_vacantion\bin\Debug\Test_vacantion.exe
-C:\Users\MOYO\Downloads\Test_vacantion\Test_vacantion\bin\Debug\Test_vacantion.pdb
-C:\Users\MOYO\Downloads\Test_vacantion\Test_vacantion\obj\Debug\Test_vacantion.csprojResolveAssemblyReference.cache
-C:\Users\MOYO\Downloads\Test_vacantion\Test_vacantion\obj\Debug\Test_vacantion.Form1.resources
-C:\Users\MOYO\Downloads\Test_vacantion\Test_vacantion\obj\Debug\Test_vacantion.Properties.Resources.resources
-C:\Users\MOYO\Downloads\Test_vacantion\Test_vacantion\obj\Debug\Test_vacantion.csproj.GenerateResource.Cache
-C:\Users\MOYO\Downloads\Test_vacantion\Test_vacantion\obj\Debug\Test_vacantion.exe
-C:\Users\MOYO\Downloads\Test_vacantion\Test_vacantion\obj\Debug\Test_vacantion.pdb

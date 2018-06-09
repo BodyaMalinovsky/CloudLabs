@@ -1,6 +1,0 @@
-C:\Users\MOYO\Downloads\TraineeTasks\VerifyCorrectExpression\VerifyCorrectExpression\VerifyCorrectExpression\bin\Debug\VerifyCorrectExpression.exe.config
-C:\Users\MOYO\Downloads\TraineeTasks\VerifyCorrectExpression\VerifyCorrectExpression\VerifyCorrectExpression\bin\Debug\VerifyCorrectExpression.exe
-C:\Users\MOYO\Downloads\TraineeTasks\VerifyCorrectExpression\VerifyCorrectExpression\VerifyCorrectExpression\bin\Debug\VerifyCorrectExpression.pdb
-C:\Users\MOYO\Downloads\TraineeTasks\VerifyCorrectExpression\VerifyCorrectExpression\VerifyCorrectExpression\obj\Debug\VerifyCorrectExpression.csprojResolveAssemblyReference.cache
-C:\Users\MOYO\Downloads\TraineeTasks\VerifyCorrectExpression\VerifyCorrectExpression\VerifyCorrectExpression\obj\Debug\VerifyCorrectExpression.exe
-C:\Users\MOYO\Downloads\TraineeTasks\VerifyCorrectExpression\VerifyCorrectExpression\VerifyCorrectExpression\obj\Debug\VerifyCorrectExpression.pdb
